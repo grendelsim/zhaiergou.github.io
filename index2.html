@@ -30,12 +30,13 @@
         </a-asset-item>
       </a-assets>
                                     
-      <a-marker-camera type='pattern' url='https://zhaiergou.github.io/pattern-letterA.patt'></a-marker-camera>
+      <a-marker-camera type='pattern' url='https://zhaiergou.github.io/pattern-letterA.patt'>
         raycaster="objects: .clickable"
         emitevents="true"
         cursor="fuse: false; rayOrigin: mouse;"
         id="markerA"
-      >
+      </a-marker-camera>
+      
         <a-entity
           id="bowser-model"
           gltf-model="#bowser"
@@ -45,7 +46,7 @@
           gesture-handler
         >
         </a-entity>
-      </a-marker>
+     
       <a-entity camera></a-entity>
     </a-scene>
   </body>

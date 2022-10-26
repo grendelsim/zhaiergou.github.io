@@ -34,7 +34,7 @@
       
         <a-entity
           id="bowser-model"
-          gltf-model="CARTI FINAL 1.glb"
+          gltf-model="CISS FINAL 1.glb"
           position="0 0 0"
           scale="0.05 0.05 0.05"
           class="clickable"
@@ -53,14 +53,56 @@
       
         <a-entity
           id="bowser-model"
-          gltf-model="Space shuttle.glb"
+          gltf-model="CISS FINAL 2.glb"
           position="0 0 0"
           scale="0.05 0.05 0.05"
           class="clickable"
           gesture-handler
         >
         </a-entity>
+       </a-marker>
+      
       </a-marker>
+      
+        <a-marker type='pattern' url='https://zhaiergou.github.io/pattern-letterC.patt'
+        raycaster="objects: .clickable"
+        emitevents="true"
+        cursor="fuse: false; rayOrigin: mouse;"
+        id="markerB" >
+        
+  
+      
+        <a-entity
+          id="bowser-model"
+          gltf-model="CISS FINAL 3.glb"
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          class="clickable"
+          gesture-handler
+        >
+        </a-entity>
+       </a-marker>
+    
+    </a-marker>
+      
+        <a-marker type='pattern' url='https://zhaiergou.github.io/pattern-letterD.patt'
+        raycaster="objects: .clickable"
+        emitevents="true"
+        cursor="fuse: false; rayOrigin: mouse;"
+        id="markerB" >
+        
+  
+      
+        <a-entity
+          id="bowser-model"
+          gltf-model="CISS FINAL 4.glb"
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          class="clickable"
+          gesture-handler
+        >
+        </a-entity>
+       </a-marker>
       
       <a-entity camera></a-entity>
     </a-scene>

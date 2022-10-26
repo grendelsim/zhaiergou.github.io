@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Dropdown</title>
+        <link rel = "stylesheet" href="style.css"
+    </head>
+    <body>
+      
+      <select id="list" onchange="getSelectValue();">
+      <option value = "A" >Destination A</option>
+      <option value = "A" >Destination B</option>
+      <option value = "A" >Destination C</option>
+      <option value = "A" >Destination D</option>
+      <option value = "A" >Destination E</option>
+      </select>
+      
+      <script type ="text/javascript">
+        function getSelectValue(){
+        var selectvalue = document.getElementById("list").value;
+
+        if(selectvalue=="A"){
+        	window.open('https://zhaiergou.github.io/index2.html', '_self');
+            return true;
+        }
+        else if(selectvalue=="B"){
+            window.open('https://zhaiergou.github.io/index3.html', '_self');
+            return true;
+        }
+        else if(selectvalue=="C"){
+            window.open('https://zhaiergou.github.io/index2.html', '_self');
+            return true;
+        }
+        else if(selectvalue=="D"){
+            window.open('http://www.facebook.com', '_self');
+            return true;
+        }
+        else if(selectvalue=="E"){
+            window.open('http://www.facebook.com', '_self');
+            return true;
+        }
+    return false;
+        };
+      </script>
+    </body>
+</html>
